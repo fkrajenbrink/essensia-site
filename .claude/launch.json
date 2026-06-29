@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Next.js Dev Server",
+      "runtimeExecutable": "/Users/frankkrajenbrink/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+      "runtimeArgs": ["/Users/frankkrajenbrink/essensia-site/start-dev.mjs"],
+      "port": 3000
+    }
+  ]
+}
