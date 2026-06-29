@@ -14,7 +14,7 @@ export async function POST(request: Request) {
     await resend.emails.send({
       from: 'Essensia Website <noreply@essensia.nl>',
       to: CONTACT_EMAIL,
-      replyTo: email,
+      reply_to: email,
       subject: `Nieuw bericht van ${naam} via essensia.nl`,
       html: `
         <h2>Nieuw contactbericht</h2>
